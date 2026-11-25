@@ -115,8 +115,8 @@ The board has 40 × 30 = 1,200 squares. Results from `--mode benchmark`, with ga
 |---|---|---:|---:|---:|---:|---|
 | **Hunter** | hazards | 32 | **239** | 246 | 453 | Average length 191 |
 | **Hunter** | classic | 16 | **612** | 611 | 638 | **Never died.** All 16 games hit the 50,000-step limit at about half-board length |
-| Neural (gen 33) | hazards | 32 | 79 | 77 | 118 | Improves the longer you train it |
-| Neural (gen 33) | classic | 16 | 87 | 90 | 127 | |
+| Neural (gen 58) | hazards | 32 | 92 | 93 | 153 | Up from 79 at gen 33; improves the longer you train it |
+| Neural (gen 58) | classic | 16 | 105 | 107 | 186 | Up from 87 at gen 33 |
 
 Reproduce:
 
